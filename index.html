@@ -23,32 +23,32 @@
 
       <section>
         <form>
-          <h1>Solicitação de reembolso</h1>
+          <h1>Refund Request</h1>
           <p>
-            Informe os dados da despesa para solicitar reembolso. A despesa será
-            analisada e reembolsada em até 30 dias.
+            Enter the expense details to request reimbursement. The expense will
+            be analyzed and reimbursed within 30 days.
           </p>
 
           <fieldset>
-            <legend>Nome da despesa</legend>
+            <legend>Expense name</legend>
             <input type="text" id="expense" name="expense" required />
           </fieldset>
 
           <div class="inputs-row">
             <fieldset>
-              <legend>Categoria</legend>
+              <legend>Category</legend>
               <select id="category" name="category" required>
-                <option value="" disabled selected hidden>Selecione</option>
-                <option value="food">Alimentação</option>
-                <option value="accommodation">Hospedagem</option>
-                <option value="services">Serviços</option>
-                <option value="transport">Transporte</option>
-                <option value="others">Outros</option>
+                <option value="" disabled selected hidden>Select</option>
+                <option value="food">Food</option>
+                <option value="accommodation">Hosting</option>
+                <option value="services">Services</option>
+                <option value="transport">Transport</option>
+                <option value="others">Others</option>
               </select>
             </fieldset>
 
             <fieldset>
-              <legend>Valor da despesa</legend>
+              <legend>Value of expenses</legend>
               <input
                 type="text"
                 name="amount"
@@ -59,14 +59,14 @@
             </fieldset>
           </div>
 
-          <button type="submit">Adicionar despesa</button>
+          <button type="submit">Add expense</button>
         </form>
 
         <aside>
           <header>
             <p>
-              Minhas solicitações <i>&bullet;</i>
-              <span>0 despesas</span>
+              My Request <i>&bullet;</i>
+              <span>0 expense</span>
             </p>
             <h2><small>R$</small>0,00</h2>
           </header>
@@ -76,8 +76,8 @@
               <img src="./img/food.svg" alt="Ícone de tipo da despesa" />
 
               <div class="expense-info">
-                <strong>Almoço</strong>
-                <span>Alimentação</span>
+                <strong>Lunch</strong>
+                <span>Food</span>
               </div>
 
               <span class="expense-amount"><small>R$</small>1.420,57</span>
