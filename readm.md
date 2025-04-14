@@ -10,4 +10,4 @@ Javascrip steps:
 -Validate the input so that it only accepts numbers [x]
 -formatting the currency [x]
 -Getting the infos from the form, create an objetc for the items [x]
--Create a function responsible to add a item in the list []
+-Create a function responsible to add a item in the list [x]
