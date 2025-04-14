@@ -11,3 +11,7 @@ Javascrip steps:
 -formatting the currency [x]
 -Getting the infos from the form, create an objetc for the items [x]
 -Create a function responsible to add a item in the list [x]
+-Create the icon to remove the item from the list [x]
+-Update the quantity of expense(My Request) [x]
+-Calculate the total of expense [x]
+-Remove the item after click in the remove icon [x]
